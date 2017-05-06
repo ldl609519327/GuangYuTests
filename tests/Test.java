@@ -14,5 +14,9 @@ public class Test {
     public void testnull(){
         System.out.println(Main.lengthOfLongestSubstring(null));
     }
-    
+
+    @org.junit.Test
+    public void testEasy(){
+        System.out.println(Main.lengthOfLongestSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
+    }
 }

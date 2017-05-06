@@ -39,8 +39,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73889875">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.67673177">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#195#196#0" expanded="true" />
@@ -169,7 +169,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="G:/guangyuTest" />
   </component>
-  <component name="RunManager" selected="JUnit.Test.testnull">
+  <component name="RunManager" selected="JUnit.Test.testEasy">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -216,6 +216,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="testnull" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test.testEasy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="untitled2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testEasy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -624,15 +645,17 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Test.test" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Test.testnull" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.testEasy" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test.testnull" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test.test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test.testEasy" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test.testnull" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -643,7 +666,7 @@
       <created>1494037928060</created>
       <option name="number" value="Default" />
       <updated>1494037928060</updated>
-      <workItem from="1494037931920" duration="1696000" />
+      <workItem from="1494037931920" duration="1775000" />
     </task>
     <servers />
   </component>
@@ -654,12 +677,15 @@
     <history-entry file="Test_test - 2017.05.06 at 10h 49m 03s.xml">
       <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_testEasy - 2017.05.06 at 11h 01m 55s.xml">
+      <configuration name="Test.testEasy" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Test_testnull - 2017.05.06 at 11h 00m 31s.xml">
       <configuration name="Test.testnull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1696000" />
+    <option name="totallyTimeSpent" value="1775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1932" height="1048" extended-state="0" />
@@ -715,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73889875">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.67673177">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#195#196#0" expanded="true" />
