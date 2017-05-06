@@ -28,6 +28,14 @@ public class Test {
         System.out.println(Main.lengthOfLongestSubstring(test));
     }
 
+    @org.junit.Test
+    public void testHard(){
+        //获得10000个随机字符串
+        String test=getString(10000);
+        System.out.println(test);
+        System.out.println(Main.lengthOfLongestSubstring(test));
+    }
+
     /**
      *
      * @param n 随机字符的数量
