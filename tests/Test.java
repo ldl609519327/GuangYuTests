@@ -19,4 +19,27 @@ public class Test {
     public void testEasy(){
         System.out.println(Main.lengthOfLongestSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
     }
+
+    @org.junit.Test
+    public void testNormal(){
+        //获得100个随机序列；
+        String test=getString(100);
+        System.out.println(test);
+        System.out.println(Main.lengthOfLongestSubstring(test));
+    }
+
+    /**
+     *
+     * @param n 随机字符的数量
+     * @return
+     */
+    public static String getString(int n){
+        String chars = "abcdefghijklmnopqrstuvwxyz";
+        char []temp=new char[n];
+        for (int i=0;i<n;i++){
+            temp[i]=chars.charAt((int) (Math.random()*26));
+        }
+        return new String(temp);
+    }
+
 }
