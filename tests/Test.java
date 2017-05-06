@@ -9,4 +9,10 @@ public class Test {
     public void test(){
         System.out.println(Main.lengthOfLongestSubstring(""));
     }
+
+    @org.junit.Test
+    public void testnull(){
+        System.out.println(Main.lengthOfLongestSubstring(null));
+    }
+    
 }
